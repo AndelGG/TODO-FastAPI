@@ -1,0 +1,17 @@
+# Получение списка задач
+GET http://127.0.0.1:8000/tasks
+Accept: application/json
+
+###
+
+# Создание новой задачи
+POST http://127.0.0.1:8000/tasks
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "My Task",
+  "description": "Task description"
+}
+
+###
